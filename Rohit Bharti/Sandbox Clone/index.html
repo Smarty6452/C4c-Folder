@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VERO</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+
+    <!-- <link rel="stylesheet" href="CSS/fontAwesome.css">
+     -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ----navbar----->
+    <nav class="navbar navbar-expand-lg bg-light px-lg-5 p-lg-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/sandbox-dark.png" alt="logo-dark" srcset=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ---center --  -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Demo
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Some</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Some</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Some</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Some</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blocks
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Some</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documentation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Some</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- --right--  -->
+
+          <div class="dropdown language">
+            <div class="d-flex">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                EN </a
+              ><i class="fa-solid px-2 mt-1 fa-circle-info"></i>
+            </div>
+            <!-- <i class="fa-solid fa-circle-info"></i> -->
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><button class="dropdown-item" type="button">EN</button></li>
+              <li><button class="dropdown-item" type="button">DE</button></li>
+              <li><button class="dropdown-item" type="button">ES</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!------- services ----->
+
+    <section class="services">
+      <div class="self-container">
+        <h5 class="text-muted">What We DO?</h5>
+        <h3 class="m-1 fw-bold">
+          The service we offer is specifically designed to meet your needs.
+        </h3>
+      </div>
+
+      <div class="container">
+        <div class="row service-content">
+          <div class="col-md-6 col-xl-3">
+            <div class="card shadow p-3 mb-xl-2 rounded">
+              <div class="card-body">
+                <img class="w-25 h-25" src="images/search.svg" alt="search" />
+                <h5 class="card-title p-2">SEO Services</h5>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non
+                  mi porta gravida at eget metus cras justo.
+                </p>
+                <a href="#" class="card-link link-warning">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-3">
+            <div class="card shadow p-3 mb-xl-2 rounded">
+              <div class="card-body">
+                <img class="w-25 h-25" src="images/browser.svg" alt="browser" />
+                <h5 class="card-title p-2">SEO Services</h5>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non
+                  mi porta gravida at eget metus cras justo.
+                </p>
+                <a href="#" class="card-link link-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card shadow p-3 mb-sm-2 mb-xl-2 rounded">
+              <div class="card-body">
+                <img class="w-25 h-25" src="images/chat-2.svg" alt="chat" />
+                <h5 class="card-title p-2">SEO Services</h5>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non
+                  mi porta gravida at eget metus cras justo.
+                </p>
+                <a href="#" class="link-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-3">
+            <div class="card shadow p-3 mb-xl-2 rounded">
+              <div class="card-body">
+                <img class="w-25 h-25" src="images/megaphone.svg" alt="phone" />
+                <h5 class="card-title p-2">SEO Services</h5>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non
+                  mi porta gravida at eget metus cras justo.
+                </p>
+                <a href="#" class="link-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --Our Strategy section --  -->
+    <section class="startegy h-100">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-lg-6 pe-5 l-strategy">
+            <h6 class="fs-16 mb-4">OUR STRATEGY</h6>
+            <h1>Here are 3 working steps to organize our business projects.</h1>
+            <p class="mt-4">
+              Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+              vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam
+              id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus
+              eget urna mollis.
+            </p>
+            <p class="mb-6">
+              Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum
+              id ligula porta felis euismod semper. Aenean lacinia bibendum
+              nulla sed consectetur.
+            </p>
+
+            <a href="#"
+              ><button id="test" class="btn rounded-pill mb-0 mt-4">
+                Learn More
+              </button></a
+            >
+          </div>
+
+          <div class="col-lg-6 r-strategy">
+            <div id="card1" class="card w-75 h-25 mb-4 shadow p-3 mb-2 rounded">
+              <div class="card-body">
+                <h4>collect ideas</h4>
+                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+              </div>
+            </div>
+
+            <div
+              class="card offset-sm-2 w-75 h-25 mb-4 shadow p-3 mb-2 rounded"
+            >
+              <div id="card2" class="card-body">
+                <h4>collect ideas</h4>
+                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+              </div>
+            </div>
+
+            <div class="card w-75 h-25 mb-4 shadow p-3 mb-2 rounded">
+              <div id="card3" class="card-body">
+                <h4>collect ideas</h4>
+                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- choose us section  -->
+    <section class="choose mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="images/illustration.png"
+              class="img-fluid mb-5"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="col-lg-6">
+            <h6 class="text-uppercase">Why choose us ?</h6>
+            <h2>We bring solutions to make life easier for our clients.</h2>
+            <!-- --accordian-- -->
+
+            <div
+              class="accordion accordion-flush mt-5"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <span class="fw-semibold"> Professional Design </span>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus.
+                    Cras mattis consectetur purus sit amet fermentum. Praesent
+                    commodo cursus magna, vel.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <span class="fw-semibold">Top-Notch Support </span>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the second item's accordion body. Let's imagine this being
+                    filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree "
+                  >
+                    <span class="fw-semibold"> Header and Slider Options</span>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --Testimonials ---->
+
+    <div class="container">
+      <div class="row"></div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("#test").click(function () {
+        alert("Error 404");
+      });
+
+      $(document).ready(function(){  
+    $("#test").hover(function(){  
+      $("button").hide();  
+    });  
+    $("#test").mouseout(function(){  
+        $("button").show();  
+      });  
+});  
+    </script>
+  </body>
+</html>

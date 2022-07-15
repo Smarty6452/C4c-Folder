@@ -1,0 +1,183 @@
+img {
+  max-width: 100%;
+}
+
+.page .col-lg-6 {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.page .col-lg-5 {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.page .image {
+  padding: 0;
+}
+
+.page .title-section {
+  background-color: black;
+  color: white;
+  height: 30vh;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 4rem;
+}
+
+.form .input {
+  background: transparent;
+  border-width: 2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: 0;
+}
+
+.form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 25vw;
+  height: 3vw;
+  padding: 0;
+  background-color: #54c7fa;
+  border: none;
+}
+
+.logo-container {
+  padding-top: 7rem;
+  padding-left: 8rem;
+}
+
+.logo-container .logo-login-signup {
+  background-color: black;
+}
+
+.signupForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 8rem;
+}
+
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 12rem;
+  height: 100vh;
+}
+
+.sidebar .logo-container {
+  padding: 20px 10px;
+}
+
+.nav-links ul {
+  padding: 0 10px;
+}
+
+.nav-links li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: white;
+}
+
+.nav-links .sidebar-icon {
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.card-section {
+  width: 65rem;
+}
+
+.card-section .card-collection {
+  margin-right: 30px;
+  width: 16vw;
+}
+
+.card-section .card-body {
+  padding-right: 4rem;
+  width: 20rem;
+}
+
+.card-section .icon {
+  padding-right: 1rem;
+}
+
+.card-section .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 30px;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  color: white;
+}
+
+.content {
+  padding-left: 25px;
+}
+
+.content h6 {
+  font-weight: normal;
+  color: gray;
+}
+
+.content span {
+  font-weight: bold;
+}
+
+.sidebar_collapse_button {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+}
+
+.sidebar_collapse_button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+/*# sourceMappingURL=Style.css.map */

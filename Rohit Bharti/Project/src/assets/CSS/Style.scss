@@ -1,0 +1,164 @@
+// $maincolor:red;
+$primarycolor: #54c7fa;
+// $secondarycolor: #555555;
+// $color-primary-light: #999999;
+// $fcolor: #222529;
+// $f2color: #d6d3cc;
+// $brandcolor: #f4f4f4;
+
+// login-page
+img {
+  max-width: 100%;
+}
+.page {
+  .col-lg-6 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .col-lg-5 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .image {
+    padding: 0;
+  }
+  .title-section {
+    background-color: black;
+    color: white;
+    height: 30vh;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 4rem;
+  .input {
+    background: transparent;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 25vw;
+    height: 3vw;
+    padding: 0;
+    background-color: $primarycolor;
+    border: none;
+  }
+}
+
+// logo
+
+.logo-container {
+  // margin: 6rem;
+  padding-top: 7rem;
+  padding-left: 8rem;
+  .logo-login-signup {
+    background-color: black;
+    // display: inline-block;
+  }
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 8rem;
+}
+
+// dashboard
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 12rem;
+  height: 100vh;
+  .logo-container {
+    padding: 20px 10px;
+  }
+}
+
+.nav-links {
+  ul {
+    padding: 0 10px;
+  }
+  li {
+    list-style: none;
+    text-decoration: none;
+  }
+  a {
+    color: white;
+  }
+  .sidebar-icon {
+    margin-right: 8px;
+    margin-bottom: 4px;
+  }
+}
+
+// card-section
+
+.card-section {
+  width: 65rem;
+  .card-collection {
+    margin-right: 30px;
+    width: 16vw;
+  }
+  .card-body {
+    padding-right: 4rem;
+    width: 20rem;
+  }
+  .icon {
+    padding-right: 1rem;
+  }
+  .logo {
+    display: flex;
+    // background-color: orange;
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    color: white;
+  }
+}
+
+
+
+.content {
+  padding-left: 25px;
+  h6 {
+    font-weight: normal;
+    color: gray;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+// .notification {
+//   position: absolute;
+//   bottom: 30px;
+
+// }
+.sidebar_collapse_button {
+  list-style: none;
+  position: absolute;
+
+  bottom: 0;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}

@@ -1,0 +1,473 @@
+// $maincolor:red;
+$primarycolor: #54c7fa;
+$secondarycolor: #fafafa;
+// $color-primary-light: #999999;
+// $fcolor: #222529;
+// $f2color: #d6d3cc;
+// $brandcolor: #f4f4f4;
+
+// login-page
+img {
+  max-width: 100%;
+}
+.page {
+  .col-lg-6 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .col-lg-5 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .image {
+    padding: 0;
+  }
+  .title-section {
+    background-color: black;
+    color: white;
+    height: 30vh;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 4rem;
+  .input {
+    background: transparent;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 25vw;
+    height: 3vw;
+    padding: 0;
+    background-color: $primarycolor;
+    border: none;
+    .login-link {
+      color: white;
+    }
+  }
+}
+
+// logo
+
+.logo-container {
+  // margin: 6rem;
+  padding-top: 7rem;
+  padding-left: 8rem;
+  .logo-login-signup {
+    background-color: black;
+    // display: inline-block;
+  }
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 8rem;
+}
+
+// dashboard
+
+//sidebar
+#page-content-wrapper {
+  padding-left: 2em;
+  padding-top: 2rem;
+  flex: 1 0 auto;
+}
+#sidebar-wrapper {
+  background-color: black;
+  color: white;
+  width: 8rem;
+
+  font-size: 14px;
+  flex: 1 0 auto;
+}
+.sidebar {
+  color: white;
+
+  .logo-container {
+    margin-top: 18px;
+    padding: 4px 8px;
+  }
+  .nav-link {
+    color: white;
+  }
+}
+
+.MdSpeed {
+  margin-right: 8px;
+  font-style: 10;
+  margin-bottom: 4px;
+}
+
+.dashboard {
+  margin-bottom: 20px;
+}
+
+.collapse-sidebar-btn {
+  position: absolute;
+  // left: 15px;
+
+  bottom: 0;
+  .c-sidebar{
+    color: white;
+    a{
+      color: white;
+    }
+  }
+
+  li {
+    padding: 10px 10px;
+    list-style: none;
+  }
+  a {
+    color: black;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  img {
+   
+    position: absolute;
+    bottom: 2rem;
+    left: 10px;
+    width: 30px;
+  }
+}
+.btn-group {
+
+  position: relative;
+    right: 2rem;
+   
+}
+
+// card-section
+
+.card-section {
+  width: 65rem;
+  .card-collection {
+    margin-right: 30px;
+    width: 16vw;
+  }
+  .card-body {
+    padding-right: 4rem;
+    width: 20rem;
+  }
+  .icon {
+    padding-right: 1rem;
+  }
+  .logo {
+    display: flex;
+    // background-color: orange;
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    color: white;
+  }
+}
+
+.content {
+  padding-left: 25px;
+  h6 {
+    font-weight: normal;
+    color: gray;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+.attendance-wrapper {
+  margin: 12px;
+  height: 7vh;
+  width: 100%;
+
+  margin-right: 628px;
+  background-color: $secondarycolor;
+  span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .attendance-status {
+    font-weight: bold;
+  }
+}
+.clock-wrap {
+  margin-bottom: 1rem;
+  .clock-status {
+    font-weight: bold;
+  }
+  .text-muted {
+    font-size: 13px;
+  }
+}
+
+.workin-place-wrapper {
+  margin-top: 20px;
+  .work-status {
+    font-weight: bold;
+  }
+}
+
+.clock-btn {
+  display: flex;
+  width: 20rem;
+  margin-top: 20px;
+
+  button {
+    margin-right: 40px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    width: 8rem;
+  }
+}
+
+#clockfunctionality {
+  // border: 2px solid red;
+  margin-top: 10px;
+  height: 20vh;
+  width: 45rem;
+  // width: 80rem;
+}
+
+// Add Employee Section
+
+.employees {
+  margin-right: 15rem;
+  display: flex;
+  justify-content: space-between;
+
+  .employe-icon {
+    margin-right: 10px;
+    margin-bottom: 3px;
+  }
+  button {
+    border-radius: 3px;
+    border: 2px solid rgb(59, 239, 239);
+    color: rgb(59, 239, 239);
+    background-color: transparent;
+    font-weight: bold;
+  }
+}
+
+.employee-detail {
+  // border: 2px solid red;
+  margin-top: 20px;
+  margin-right: 228px;
+  .card-body {
+    // border: 2px solid green;
+    height: 10vh;
+  }
+}
+
+.entries {
+  margin-top: 20px;
+  margin-right: 15rem;
+  display: flex;
+  justify-content: space-between;
+  input {
+    border: 1px solid gray;
+  }
+}
+
+.employee-section {
+  width: 80%;
+}
+
+// table component
+.main-table {
+  margin-top: 25px;
+  // width: 1086px;
+  width: 83%;
+  height: 43vh;
+}
+
+.page-link {
+  color: gray;
+  font-weight: bold;
+}
+
+span.page-link {
+  border: 2px solid red;
+}
+.page-item.active .page-link {
+  background-color: gray;
+  border-color: gray;
+}
+
+// employeelist
+.title {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.employee-info-wrapper {
+  margin: 12px;
+  height: 7vh;
+  width: 100%;
+
+  margin-right: 3rem;
+  background-color: $secondarycolor;
+  .add-info {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: gray;
+    font-weight: bold;
+  }
+}
+.employee-list {
+  margin-bottom: 1rem;
+  .sidebar-icon {
+    margin-bottom: 3px;
+    margin-right: 1rem;
+    
+  }
+}
+.navbar-item {
+  .sidebar-icon {
+   margin-right: 10px;
+  }
+}
+
+.employee-details {
+  margin-right: 23px;
+  p {
+    font-weight: light;
+    color: gray;
+  }
+  .info-circle {
+    margin-bottom: 2px;
+  }
+}
+.gender {
+  width: 24rem;
+}
+.more-info {
+  margin-top: 1rem;
+  margin-right: 23px;
+  // border: 1px solid black;
+  // padding: 10 0;
+}
+.textbox {
+  margin-top: 1rem;
+  margin-right: 23px;
+}
+.tag {
+  margin-right: 23px;
+}
+.tag-field {
+  border: 1px solid $secondarycolor;
+  padding: 4px 4px;
+  border-radius: 2px;
+}
+
+.upload {
+  margin-top: 1rem;
+}
+.save-btn {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 4px 7px;
+  border-radius: 3px;
+}
+.select-btn {
+  background-color: rgb(31, 165, 210);
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  padding: 4px 6px;
+}
+
+// attendance saection
+.attendance-date {
+  margin-top: 12px;
+  margin-left: 12px;
+  height: 5vh;
+  width: 100%;
+  margin-right: 23px;
+  background-color: $secondarycolor;
+  span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .attendance-status {
+    font-weight: bold;
+  }
+}
+.att-icon {
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.attendance-card {
+  // border: 2px solid red;
+  margin-right: 15rem;
+  margin-top: 1rem;
+}
+.attend-card {
+  margin-top: 10px;
+  height: 10vh;
+  .card-body {
+    display: flex;
+    align-items: center;
+   text-align: center;
+   
+  }
+}
+.icon {
+margin-right: 20px;
+background:            linear-gradient( rgba(206, 145, 177, 0.8), rgba(57, 63, 57, 0),rgb(104, 122, 170) 100%),;
+width: 70px;
+height: 70px;
+padding: 15px 15px 15px 15px;
+border-radius: 50%;
+}
+.icon-2 {
+margin-right: 20px;
+
+background: linear-gradient(rgb(18, 2, 255),rgb(104, 122, 170),rgba(255, 0, 47, 0.96));;
+background-color: red;
+width: 70px;
+height: 70px;
+padding: 15px 15px 15px 15px;
+border-radius: 50%;
+}
+.icon-4 {
+margin-right: 20px;
+background: linear-gradient(rgb(214, 14, 11),rgb(225, 92, 35),rgb(241, 237, 10));;
+width: 70px;
+height: 70px;
+padding: 15px 15px 15px 15px;
+border-radius: 50%;
+}
+.admin-table {
+  // border: 2px solid red;
+  height: 5vh;
+}
+
+.date-picker {
+  margin-top: 6px;
+}

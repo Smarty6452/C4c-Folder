@@ -1,0 +1,295 @@
+// $maincolor:red;
+$primarycolor: #777777;
+$secondarycolor: #555555;
+$color-primary-light: #999999;
+$fcolor: #222529;
+$f2color: #d6d3cc;
+$brandcolor: #f4f4f4;
+// top bar
+Nav {
+
+  p {
+    font-size: 10px;
+  }
+  h6 {
+    margin-top: 8px;
+  }
+}
+// middle bar
+.cartSection {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 2px 3px;
+    color: $primarycolor;
+    li {
+      list-style: none;
+      margin: 0 8px 2px;
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#basic-nav-dropdown {
+  color: #777777;
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.phone {
+  margin: 3px 4px;
+}
+
+
+hr.hr-3 {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #8c8c8c;
+}
+
+.icons {
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      margin: 2px 13px 4px 4px;
+      cursor: pointer;
+    }
+  }
+}
+.home {
+  margin-top: 8px;
+  padding-right: 15px;
+  color: #222529;
+  font-weight: bold;
+}
+#basic-nav {
+  color: #555555;
+  font-weight: bold;
+}
+.phone {
+  img {
+    position: absolute;
+    width: 148px;
+    height: 52px;
+    right: 855px;
+    bottom: 0;
+  }
+}
+
+// banner
+
+.banner {
+  margin-bottom: 5rem;
+}
+
+.banner {
+  img {
+    width: 100%;
+    height: 40rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-radius: 2 rem 2rem;
+  }
+  h3 {
+    display: block;
+    float: left;
+  }
+  .cItem {
+    height: 600px;
+  }
+  .content {
+    width: 500px;
+    height: 350px;
+  }
+  .shop {
+    justify-content: space-evenly;
+    padding: 10px 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  img {
+    height: 100vh;
+  }
+}
+//category
+.category {
+  margin: 40px 30px 10px 100px;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  .stack {
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    width: 320px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    &:hover {
+      color: white;
+      background-color: rgb(46, 45, 45);
+    }
+  }
+}
+// card
+.Card {
+  width: 20rem;
+  height: 20rem;
+  margin: 1px 3px 3px;
+  border-top: 0;
+  border-left: 0;
+  .upper {
+    margin-top: 10.5rem;
+    /* font-size: 10px; */
+  }
+  .bottom {
+    margin: 5px 14px 8px;
+  }
+}
+
+// footer
+.m-footer {
+  // margin-top: 3rem;
+  li {
+    list-style: none;
+    font-weight: 100;
+  }
+  .details {
+    margin-right: 553px;
+    width: 66rem;
+  }
+  img {
+    position: absolute;
+    width: 148px;
+    height: 52px;
+    right: 855px;
+    bottom: 0;
+  }
+  .hello {
+    height: 100px;
+  }
+}
+.footer-left {
+  .sub-content {
+    display: flex;
+  }
+  h6 {
+    font-weight: bold;
+  }
+  .no {
+    font-weight: bolder;
+  }
+}
+.social li {
+  padding: 0 7px;
+}
+.right-footer {
+  position: absolute;
+  margin: 90px;
+  width: 44rem;
+  right: 30rem;
+}
+
+// bottom Footer
+footer {
+  margin-top: 3rem;
+  background-color: $fcolor;
+  color: white;
+  li {
+    list-style: none;
+    text-decoration: none;
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: gray;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.b-Footer {
+  ul {
+    display: flex;
+  }
+  .paragraph {
+    margin-top: 1rem;
+    font-weight: 100;
+    color: $color-primary-light;
+  }
+}
+
+.pay-icon {
+  position: absolute;
+  right: 30rem;
+  color: white;
+  li {
+    margin: 7px 7px 7px 7px;
+    padding: 3px 5px 3px 3px;
+    a {
+      color: $fcolor;
+      background-color: $f2color;
+    }
+  }
+}
+
+//brand slider
+
+.App {
+  // border: 2px solid red;
+  // width: 80rem;
+  position: relative;
+  right: 130px;
+  padding-left: 26rem;
+  padding-right: 15rem;
+  width: 100%;
+  height: 30vh;
+}
+.b-link{
+  // border: 2px solid rgb(221, 173, 173);
+
+  // background-color: $brandcolor;
+  img {
+    background-color: $brandcolor;
+    cursor: pointer;
+    padding: 40px;
+    width: 262px;
+  }
+}
+
+.slider-arrow {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 60%;
+  margin-top: 2rem;
+  bottom: 75px;
+  right: -6rem;
+  width: 167rem;
+}
+
+.arrow-btn {
+  top: 100%;
+  width: 100px;
+}
+
+.next {
+  float: right;
+}
+
+.slick-track {
+  left: 37px;
+  top: 15px;
+}
+

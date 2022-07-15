@@ -1,0 +1,308 @@
+Nav p {
+  font-size: 10px;
+}
+
+Nav h6 {
+  margin-top: 8px;
+}
+
+.cartSection ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 7px 2px 3px;
+  color: #777777;
+}
+
+.cartSection ul li {
+  list-style: none;
+  margin: 0 8px 2px;
+}
+
+.cartSection ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#basic-nav-dropdown {
+  color: #777777;
+}
+
+#basic-nav-dropdown:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.phone {
+  margin: 3px 4px;
+}
+
+hr.hr-3 {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #8c8c8c;
+}
+
+.icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icons ul li {
+  list-style: none;
+  margin: 2px 13px 4px 4px;
+  cursor: pointer;
+}
+
+.home {
+  margin-top: 8px;
+  padding-right: 15px;
+  color: #222529;
+  font-weight: bold;
+}
+
+#basic-nav {
+  color: #555555;
+  font-weight: bold;
+}
+
+.phone img {
+  position: absolute;
+  width: 148px;
+  height: 52px;
+  right: 855px;
+  bottom: 0;
+}
+
+.banner {
+  margin-bottom: 5rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 40rem;
+  position: absolute;
+  margin-top: 4rem;
+  border-radius: 2 rem 2rem;
+}
+
+.banner h3 {
+  display: block;
+  float: left;
+}
+
+.banner .cItem {
+  height: 600px;
+}
+
+.banner .content {
+  width: 500px;
+  height: 350px;
+}
+
+.banner .shop {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    height: 100vh;
+  }
+}
+
+.category {
+  margin: 40px 30px 10px 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.category .stack {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.category .btn {
+  width: 320px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.category .btn:hover {
+  color: white;
+  background-color: #2e2d2d;
+}
+
+.Card {
+  width: 20rem;
+  height: 20rem;
+  margin: 1px 3px 3px;
+  border-top: 0;
+  border-left: 0;
+}
+
+.Card .upper {
+  margin-top: 10.5rem;
+  /* font-size: 10px; */
+}
+
+.Card .bottom {
+  margin: 5px 14px 8px;
+}
+
+.m-footer li {
+  list-style: none;
+  font-weight: 100;
+}
+
+.m-footer .details {
+  margin-right: 553px;
+  width: 66rem;
+}
+
+.m-footer img {
+  position: absolute;
+  width: 148px;
+  height: 52px;
+  right: 855px;
+  bottom: 0;
+}
+
+.m-footer .hello {
+  height: 100px;
+}
+
+.footer-left .sub-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-left h6 {
+  font-weight: bold;
+}
+
+.footer-left .no {
+  font-weight: bolder;
+}
+
+.social li {
+  padding: 0 7px;
+}
+
+.right-footer {
+  position: absolute;
+  margin: 90px;
+  width: 44rem;
+  right: 30rem;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: #222529;
+  color: white;
+}
+
+footer li {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.b-Footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.b-Footer .paragraph {
+  margin-top: 1rem;
+  font-weight: 100;
+  color: #999999;
+}
+
+.pay-icon {
+  position: absolute;
+  right: 30rem;
+  color: white;
+}
+
+.pay-icon li {
+  margin: 7px 7px 7px 7px;
+  padding: 3px 5px 3px 3px;
+}
+
+.pay-icon li a {
+  color: #222529;
+  background-color: #d6d3cc;
+}
+
+.App {
+  position: relative;
+  right: 130px;
+  padding-left: 26rem;
+  padding-right: 15rem;
+  width: 100%;
+  height: 30vh;
+}
+
+.b-link img {
+  background-color: #f4f4f4;
+  cursor: pointer;
+  padding: 40px;
+  width: 262px;
+}
+
+.slider-arrow {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 60%;
+  margin-top: 2rem;
+  bottom: 75px;
+  right: -6rem;
+  width: 167rem;
+}
+
+.arrow-btn {
+  top: 100%;
+  width: 100px;
+}
+
+.next {
+  float: right;
+}
+
+.slick-track {
+  left: 37px;
+  top: 15px;
+}
+/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,96 @@
+/* for small devices  */
+
+@media screen and (max-width: 576px) {
+    .navbar-nav {
+        padding-left: 0rem;
+        
+      }
+      .navbar-brand {
+        padding-left: 1rem;
+       
+    }
+  .self-container h3 {
+    width: 24rem;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    /* margin-right: 4px; */
+    width: 27rem;
+  }
+  .r-strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+}
+
+/* for medium devices  */
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .card  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+  
+      .r-strategy {
+        margin-top: 4rem;
+      }
+      .mini-card {
+        position: relative;
+        left: 0;
+      }
+      .self-container h3 {
+        width: 550px;
+      }
+}
+
+/* fro lg devices  */
+@media screen and (min-width:768px) {
+  
+      .card {
+        margin-bottom: 2rem;
+      }
+      .self-container h3 {
+        width: 550px;
+      }
+      .startegy {
+        margin-top: 4rem;
+      }
+      .r-strategy {
+        margin-top: 4rem;
+      }
+      .accordion-button::after {
+        position: relative;
+        right: 38rem;
+    }
+    }
+
+    /* for xl devices  */
+    @media (min-width: 1100px)  {
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px auto;
+            padding: 2px 3px;
+            /* width: 100%; */
+        }
+        
+          .mini-card {
+            position: relative;
+            left: 10rem;
+            border: 2px solid red;
+          }
+    }

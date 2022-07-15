@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primaryColor: #FAB758;
+  --secondaryColor: #343F52;
+  --paraColor: #60697B;
+  --background: #FEFEFE;
+}
+.dropdown-menu{
+min-width: inherit;
+
+}
+
+.dropdown {
+  color: black;
+}
+.dropdown-toggle{
+  color: black;
+  font-weight: bold;
+}
+.dropdown-toggle:hover{
+  color: var(--primaryColor);
+  
+}
+.dropdown-item {
+  width: max-content !important;
+}
+
+.navbar-nav {
+  padding-left: 15rem;
+  
+}
+.navbar-brand {
+  padding-left: 15rem;
+}
+.language {
+  padding-right: 15rem;
+}
+.fa-solid {
+  padding-right: 10rem;
+}
+
+
+.wrap-content {
+
+  height: 50vh;
+  margin-top: 3rem;
+  
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.service-content {
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.self-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.self-container h3 {
+  color: var(--secondaryColor);
+}
+.card {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 30vh;
+}
+.services{
+  background-color: var(--background);
+} 
+.card-body a {
+  text-decoration: none;
+}
+.card-title {
+  color: var(--secondaryColor);
+}
+.card-text {
+  color: var(--paraColor);
+  font-weight: normal;
+}
+
+/* --strategy--  */
+h1 {
+  color: var(--secondaryColor) ;
+}
+.btn {
+  padding: 13px;
+  background-color: var(--primaryColor);
+  border: none;
+}
+.mini-card {
+  position: relative;
+  left: 15rem;
+}
+
+/* accordian  */
+.img-fluid {
+  max-width: 95%;
+  height: auto;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+.myImage{
+  width: max-content;
+}
+
+.accordion-button::after {
+ 
+
+  position: relative;
+  right: 38rem;
+  margin-top: 2px;
+ 
+}
+
