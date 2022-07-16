@@ -6,7 +6,7 @@ const homeFile = fs.readFileSync("home.html", "utf-8")
 
 const server = http.createServer((req, res) => {
     if(req.url == "/") {
-        requests('https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={08fda657aec35a5ad515d518ee86c82e}')
+        requests('http://api.openweathermap.org/data/2.5/weather?q=Pune&units=metric&appid=08fda657aec35a5ad515d518ee86c82e}')
         .on('data', function(chunk) {
             const objdata = JSON.parse(chunk);
             const arrData = [objdata];
