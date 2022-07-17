@@ -107,12 +107,12 @@ html {
     align-items: flex-start;
 }
 .main_header_right  figure img {
-
+   filter: drop-shadow(0 0.5rem 11rem 1rem rgba(0, 0, 0, 0.3));
 }
 
 /* footer code  */
 
-.footer {
+footer {
     width: 100%;
     background-color: var(--main-color);
     text-align: center;
