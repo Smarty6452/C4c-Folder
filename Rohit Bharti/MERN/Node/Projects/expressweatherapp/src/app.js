@@ -30,7 +30,7 @@ app.get("/about" ,(req, res)=> {
 }) 
 
 app.get("/weather" ,(req, res)=> {
-    res.render("welcome to weather page")
+    res.render("weather")
 }) 
 app.get("*" ,(req, res)=> {
     res.render("404error", {
