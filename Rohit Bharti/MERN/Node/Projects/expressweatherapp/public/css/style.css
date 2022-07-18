@@ -109,8 +109,17 @@ html {
 .main_header_right  figure img {
     
    filter: drop-shadow(0 0.5rem  1rem rgba(0, 0, 0, 0.3));
+   
 }
 
+/* error page style  */
+.errImg img {
+    border: "2px solid red";
+    width: "30rem";
+    height: "60rem";
+
+
+}
 /* footer code  */
 
 footer {
