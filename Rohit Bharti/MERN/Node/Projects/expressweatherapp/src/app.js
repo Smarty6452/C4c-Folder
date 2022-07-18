@@ -1,27 +1,39 @@
 const express = require('express')
 const path = require('path')
+const hbs = require('hbs')
 const app = express();
 const port = process.env.PORT ||  9000 ;
 
 //public static path
 // console.log(path.join(__dirname, "../public"))
 const static_path = path.join(__dirname, "../public")
+const template_path = path.join(__dirname, "../templates/views")
+const partials_path = path.join(__dirname, "../templates/partials")
+
+
+
+
+// using hbs 
+app.set('view engine', 'hbs');  //engine
+app.set('views', template_path );  //default views changed to tmplates
+hbs.registerPartials(partials_path) //to use partials first register
+
 app.use(express.static(static_path))
 
 //routing
 app.get("" ,(req, res)=> {
-    res.send("welcome to my homepage")
+    res.render("index")
 }) 
 
 app.get("/about" ,(req, res)=> {
-    res.send("welcome to About us page")
+    res.render("about")
 }) 
 
 app.get("/weather" ,(req, res)=> {
-    res.send("welcome to weather page")
+    res.render("welcome to weather page")
 }) 
 app.get("*" ,(req, res)=> {
-    res.send("404 erro page")
+    res.render("404 erro page")
 }) 
 
 app.listen(port, () => {
