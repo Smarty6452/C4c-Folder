@@ -147,7 +147,7 @@ html {
 
 /* temp details show here  */
 .tempinformation {
-    width: 40rem;
+    width: 50rem;
     margin: auto;
     min-height: 20rem;
     background-color: #323544;
@@ -214,7 +214,7 @@ sup {
 }
 
 .data_hide {
-    /* visibility: hidden; */
+    visibility: hidden;
     transition: all 0.3s linear;
 }
 
@@ -251,5 +251,13 @@ footer {
   .main_header_right {
     height: auto;
     margin-top: 3rem;
+  }
+
+  .temp_form {
+    width: auto;
+
+  }
+  .tempinformation{
+    width: auto;
   }
 }
