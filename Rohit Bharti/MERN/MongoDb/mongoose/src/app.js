@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 //promises
 // connection creation
 mongoose
-  .connect("mongodb://localhost:27017/test", {
+  .connect("mongodb://localhost:27017/rohit", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -34,26 +34,26 @@ const Playlist = new mongoose.model("Playlist", playListSchema);
 // const Playlist = new mongoose.model("Playlist", playListSchema)
 
 // create a documenmt to insert
-const createDocument = async () => {
-  try {
+// const createDocument = async () => {
+//   try {
 
-    const mongoosePlaylist = new Playlist({
-      name: "S",
-      ctype: "database",
-      videos: 20,
-      author: "Smarty",
-      active: true,
-    });
+//     const mongoosePlaylist = new Playlist({
+//       name: "S",
+//       ctype: "database",
+//       videos: 20,
+//       author: "Smarty",
+//       active: true,
+//     });
    
 
-    const result = await Playlist.insertMany([ mongoosePlaylist]);
-    console.log(result);
-  } catch (err) {
-    console.log(err);
-  }
-};
+//     const result = await Playlist.insertMany([ mongoosePlaylist]);
+//     console.log(result);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// };
 
-createDocument();
+// createDocument();
 
 // const getDocument = async () => {
 //   try {
