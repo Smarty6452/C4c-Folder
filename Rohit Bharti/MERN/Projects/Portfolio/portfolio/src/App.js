@@ -1,12 +1,8 @@
-
+import Profile from './PortfolioContainer/Home/Profile';
 import './App.css';
-import Content from './component/content';
-
 function App() {
   return (
-    <>
-  <Content />
-    </>
+   <Profile />
   );
 }
 
