@@ -1,13 +1,108 @@
+@font-face {
+  font-family: "Poppins Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Thin.ttf");
+}
+@font-face {
+  font-family: "Poppins ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+* {
+  outline: none;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+  font-family: "Poppins-Regular";
+  --webkit-font-smooothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0%, 100%, 0.1);
+}
+.btn {
+  border-radius: 50px;
+  padding: 15px 0;
+  width: 160px;
+  cursor: pointer;
+  transform: 0.2s;
+  font-family: "Poppins-SemiBold";
+}
+.primary-btn {
+  color: var(--white);
+
+  font-size: 12px;
+  background-color: #1f2235;
+}
+.primary-btn:hover {
+  color: var(--white);
+  font-size: 12px;
+  border: 2px solid linen;
+  color: white;
+}
+.highlighted-btn {
+  color: var(--white);
+  font-size: 12px;
+  background-color: var(--red);
+}
+.highlighted-btn:hover {
+  background-color: var(--orange);
+  color: white;
+  border: 2px solid linen;
+}
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
 }

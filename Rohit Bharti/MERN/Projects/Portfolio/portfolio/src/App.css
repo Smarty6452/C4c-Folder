@@ -1,1 +1,14 @@
 @import '~antd/dist/antd.css';
+
+:root {
+    --loader-color: #0cbfae;
+    --toast-success: #0cbfae;
+    --loader-shadow: #9c9c9ce3;
+    --toast-error: #e44f4ffa;
+    --error-message: #e44f4fd1;
+    --black: #2b2b2b;
+    --white: #f6f6f6;
+    --orange: #cc2e2e;
+    --red: #de1b1b;
+    --orange-shadow: rgba(245, 127, 23, 0.2)
+}
